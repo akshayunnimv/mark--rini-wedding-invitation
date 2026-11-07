@@ -1,0 +1,6 @@
+{
+  "name": "Mark & Rini Wedding Invitation",
+  "description": "The Wedding of Mark Thomson E and Rini V Rajan on December 19, 2026 at Yahir Auditorium, Thiruvalla. An elegant, minimalist Christian wedding invitation with Bible verses and location details.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
