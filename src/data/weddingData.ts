@@ -45,7 +45,7 @@ export function getGoogleCalendarUrl(): string {
     `Date & Time: Saturday, Dec 19, 2026 at 10:00 AM IST\n` +
     `Venue: Yahir Auditorium, Thiruvalla, Kerala\n` +
     `Map: ${WEDDING_DETAILS.venue.mapUrl}\n\n` +
-    `"Two are better than one... A cord of three strands is not quickly broken." — Ecclesiastes 4:9, 12`
+    `"Two are better than one, because they have a good return for their labor... Though one may be overpowered, two can defend themselves. A cord of three strands is not quickly broken." — Ecclesiastes 4:9, 12`
   );
   const location = encodeURIComponent(`${WEDDING_DETAILS.venue.name}, ${WEDDING_DETAILS.venue.city}, Kerala`);
   return `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&dates=${startUTC}/${endUTC}&details=${details}&location=${location}`;
@@ -87,7 +87,7 @@ export const GALLERY_PHOTOS: PhotoItem[] = [
     caption: 'Mark & Rini together in elegance',
     category: 'couple',
     aspectRatio: '3:4',
-    quote: 'Two are better than one, because they have a good return for their labor... A cord of three strands is not quickly broken.',
+    quote: 'Two are better than one, because they have a good return for their labor... Though one may be overpowered, two can defend themselves. A cord of three strands is not quickly broken.',
     quoteSource: 'Ecclesiastes 4:9, 12',
     reflection: 'A sacred union anchored in Christ, where two separate lives intertwine into one harmonious song of everlasting devotion.',
   },

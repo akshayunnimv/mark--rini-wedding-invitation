@@ -20,7 +20,6 @@ export const Navbar: React.FC = () => {
     { label: 'Invitation', href: '#invitation' },
     { label: 'The Couple', href: '#couple' },
     { label: 'Moments', href: '#moments' },
-    { label: 'Sacred Word', href: '#scripture' },
     { label: 'Venue & Map', href: '#venue' },
   ];
 

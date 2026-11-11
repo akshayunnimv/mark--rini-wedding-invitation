@@ -58,7 +58,7 @@ export const WaxSealEnvelope: React.FC<WaxSealEnvelopeProps> = ({ onOpen }) => {
           <div className="flex items-center justify-center gap-3 mb-4">
             <span className="h-[1px] w-8 sm:w-12 bg-gradient-to-r from-transparent to-[#B58F49]" />
             <span className="font-sans text-[10px] sm:text-xs uppercase tracking-[0.28em] text-[#8C6D34] font-medium">
-              Formal Wedding Invitation
+              Wedding Invitation
             </span>
             <span className="h-[1px] w-8 sm:w-12 bg-gradient-to-l from-transparent to-[#B58F49]" />
           </div>
@@ -104,7 +104,7 @@ export const WaxSealEnvelope: React.FC<WaxSealEnvelopeProps> = ({ onOpen }) => {
               transition={{ duration: 0.8 }}
               className="relative w-24 h-24 sm:w-28 sm:h-28 rounded-full cursor-pointer focus:outline-hidden focus-visible:ring-4 focus-visible:ring-[#D9BA76] shadow-2xl transition-shadow group select-none"
               title="Click to open invitation"
-              aria-label="Open formal wedding invitation"
+              aria-label="Open wedding invitation"
             >
               {/* Wax Seal SVG */}
               <svg viewBox="0 0 100 100" className="w-full h-full drop-shadow-md">
@@ -153,7 +153,7 @@ export const WaxSealEnvelope: React.FC<WaxSealEnvelopeProps> = ({ onOpen }) => {
           {/* Action text */}
           <div className="flex items-center justify-center gap-1.5 text-xs font-sans tracking-[0.2em] uppercase text-[#8C6D34] font-semibold animate-pulse-subtle">
             <Sparkles className="w-3.5 h-3.5 text-[#B58F49]" />
-            <span>Tap the wax seal to open</span>
+            <span>Tap the seal to open</span>
             <Sparkles className="w-3.5 h-3.5 text-[#B58F49]" />
           </div>
 

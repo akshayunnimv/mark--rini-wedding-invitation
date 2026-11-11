@@ -148,10 +148,10 @@ export const CoupleSection: React.FC<CoupleSectionProps> = ({ onSelectPhoto }) =
             <Heart className="w-3.5 h-3.5 fill-[#8C6D34]" />
           </div>
           <p className="font-serif italic text-lg sm:text-xl text-[#52473A] leading-relaxed">
-            &ldquo;Though one may be overpowered, two can defend themselves. A cord of three strands is not quickly broken.&rdquo;
+            &ldquo;Two are better than one, because they have a good return for their labor... Though one may be overpowered, two can defend themselves. A cord of three strands is not quickly broken.&rdquo;
           </p>
           <span className="font-sans text-[11px] uppercase tracking-widest text-[#9E907E] mt-1 block">
-            Ecclesiastes 4:12
+            Ecclesiastes 4:9, 12
           </span>
         </motion.div>
       </div>

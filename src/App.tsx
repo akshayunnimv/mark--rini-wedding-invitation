@@ -5,7 +5,6 @@ import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
 import { CoupleSection } from './components/CoupleSection';
 import { GallerySection } from './components/GallerySection';
-import { ScriptureSection } from './components/ScriptureSection';
 import { VenueSection } from './components/VenueSection';
 import { Footer } from './components/Footer';
 import { LightboxModal } from './components/LightboxModal';
@@ -52,9 +51,6 @@ export default function App() {
 
         {/* Remaining Photos in Modern Editorial Gallery */}
         <GallerySection onSelectPhoto={handleSelectPhoto} />
-
-        {/* Biblical Scriptures on Matrimony */}
-        <ScriptureSection />
 
         {/* Ceremony, Venue & Google Maps */}
         <VenueSection />

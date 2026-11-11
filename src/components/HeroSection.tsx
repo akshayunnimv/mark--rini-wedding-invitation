@@ -22,10 +22,20 @@ export const HeroSection: React.FC = () => {
         transition={{ duration: 0.8, ease: 'easeOut' }}
         className="flex flex-col items-center text-center z-10"
       >
-        <CrossFloralMotif className="w-9 h-12 text-[#B58F49] mb-3" />
-        <span className="font-sans text-[11px] sm:text-xs uppercase tracking-[0.3em] text-[#8C6D34] font-medium">
-          Holy Matrimony &middot; The Sacred Covenant
+        <CrossFloralMotif className="w-8 h-10 text-[#B58F49] mb-2.5" />
+        <p className="font-serif italic text-sm sm:text-base text-[#6E6150] tracking-wide mb-1 max-w-md px-4">
+          &ldquo;I have found the one whom my soul loves.&rdquo;
+        </p>
+        <span className="font-sans text-[10px] sm:text-[11px] uppercase tracking-[0.24em] text-[#8C6D34] font-medium mb-3">
+          Song of Solomon 3:4
         </span>
+        <div className="flex items-center gap-2">
+          <span className="h-[1px] w-6 bg-[#D9BA76]/60" />
+          <span className="font-sans text-[11px] sm:text-xs uppercase tracking-[0.3em] text-[#8C6D34] font-medium">
+            Holy Matrimony &middot; The Sacred Covenant
+          </span>
+          <span className="h-[1px] w-6 bg-[#D9BA76]/60" />
+        </div>
       </motion.div>
 
       {/* Main Website Hero Typography */}
